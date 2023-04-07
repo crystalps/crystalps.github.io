@@ -1,154 +1,402 @@
 <html>
-	<head>
-		<title>ReGrowtopia: Punch. Build. Grow.</title>
-		<link rel="stylesheet" type="text/css" href="growtopia.css">
-		<script language="javascript" src="topia_stuff.js"></script>
-	</head>
-	<body>
-		<style type="text/css">
-			body {
-				margin-top:0 !important;
-				padding-top:0 !important;
-				/*min-width:800px !important;*/
-			}
-		</style>
+<head>
+<title>ReGrowtopia - Awesome world renders</title>
+<link rel="stylesheet" type="text/css" href="../growtopia.css">
+</head>
+<body>
+	<style type="text/css">
+		body {
+			margin-top:0 !important;
+			padding-top:0 !important;
+			/*min-width:800px !important;*/
+		}
+		
+		.worlds {
+			max-width: 60em;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.worldtransbox {
+			margin: auto;
+			padding: 20px 20px 20px 20px;
+		}
+		
+		.world_data {
+			margin: auto;
+			text-align:center;
+			
+			height: 3em;
+		}
+		
+		wn {
+			color: #9999FF;
+		}
+		
+		wo {
+			color: #22FF22;
+		}
+		
+		wod {
+			color: #FFCC50;
+		}
+		
+		wom {
+			color: #FF20FF;
+		}
+		
+		wor {
+			background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+			-webkit-background-clip: text;
+			-moz-background-clip: text;
+			background-clip: text;
+			color: transparent;
+			text-shadow: none;
+		}
+		
+		.trophy {
+			width: 1em;
+			filter: drop-shadow(2px 2px 0px #000000);
+		}
+		
+		.trophy_abbr {
+			border: none;
+			text-decoration: none;
+		}
+		
+		.world_thumb {
+			width: 56em;
+			margin: auto;
+		}
+		
+		.world_thumb_img {
+			width: 100%;
+			margin: auto;
+		}
+		
+		.title {
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		
+	</style>
 	
-		<span class="cloud" id="cloud0"><div class="cloud1" id="cloud0E"></div></span>
-		<span class="cloud" id="cloud1"><div class="cloud1" id="cloud1E"></div></span>
-		<span class="cloud" id="cloud2"><div class="cloud1" id="cloud2E"></div></span>
-		<span class="cloud" id="cloud3"><div class="cloud1" id="cloud3E"></div></span>
-		<span class="cloud" id="cloud4"><div class="cloud1" id="cloud4E"></div></span>
-		<span class="cloud" id="cloud5"><div class="cloud1" id="cloud5E"></div></span>
-		<span class="cloud" id="cloud6"><div class="cloud1" id="cloud6E"></div></span>
-		<span class="cloud" id="cloud7"><div class="cloud1" id="cloud7E"></div></span>
-		<span class="cloud" id="cloud8"><div class="cloud1" id="cloud8E"></div></span>
-		<span class="cloud" id="cloud9"><div class="cloud1" id="cloud9E"></div></span>
-		
-		<div class="sun" id="the_sun"></div>
-		<div class="topia" id="the_title">
-			<img alt="ReGrowtopia" src="images/regrowtopia.png" class="topia2" height=202px></img>
+	<div style="position:absolute;right:10px;top:10px;align:right;padding:5px;background-color:#2FBFDF;border-style:solid;border-width:1px;border-color:white;z-index:6;" align="right">
+		<a href="..">The Game</a> - 
+		<a href="https://discord.gg/ERE7jhNUCv">Discord</a> - 
+		<a href="../aboutus">About Us</a> - 
+		Gallery of Worlds
+	</div>
+
+	<div class="worlds">
+		<div class="transbox title">
+			<img src="../images/regrowtopia.png" style="height: 100px; "/>
+			<h1>
+				Gallery of Awesome Worlds
+			</h1>
 		</div>
+		<!-- Note: I kinda don't like repeating myself here.. -->
 		
-		<br><br><br><br><br><br><br><br><br><br><br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>START</wn> by <wod>@iProgramInCpp</wod>
+			</div>
+			<a class="world_thumb" href="start.png">
+				<img class="world_thumb_img" src="start.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>10YEARSOFGT</wn> by <wod>@iProgramInCpp</wod>
+			</div>
+			<a class="world_thumb" href="10yearsofgt.png">
+				<img class="world_thumb_img" src="10yearsofgt.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>NASDAQ</wn> by <wom>@KarvaPasi</wom>
+			</div>
+			<a class="world_thumb" href="nasdaq.png">
+				<img class="world_thumb_img" src="nasdaq.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>BUYLGRID</wn> by <wom>@Melina</wom>
+			</div>
+			<a class="world_thumb" href="buylgrid.png">
+				<img class="world_thumb_img" src="buylgrid.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>FAKECASTLE</wn> by <wom>sairasu</wom>
+			</div>
+			<a class="world_thumb" href="fakecastle.png">
+				<img class="world_thumb_img" src="fakecastle.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>GMMGIVEAWAY</wn> by <wod>@iProgramInCpp</wod>
+			</div>
+			<a class="world_thumb" href="gmmgiveaway.png">
+				<img class="world_thumb_img" src="gmmgiveaway.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>MODS</wn> by <wom>@KarvaPasi</wom>
+			</div>
+			<a class="world_thumb" href="mods.png">
+				<img class="world_thumb_img" src="mods.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>VEGAS</wn> by <wom>@Oslo</wom>
+			</div>
+			<a class="world_thumb" href="vegas.png">
+				<img class="world_thumb_img" src="vegas.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>HEDGE</wn> by <wor>Schris</wor>
+			</div>
+			<a class="world_thumb" href="hedge.png">
+				<img class="world_thumb_img" src="hedge.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>DRAGON</wn> by <wor>Schris</wor>
+			</div>
+			<a class="world_thumb" href="dragon.png">
+				<img class="world_thumb_img" src="dragon.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>SUNNY</wn> by <wo>MetalGearSolid</wo>
+			</div>
+			<a class="world_thumb" href="sunny.png">
+				<img class="world_thumb_img" src="sunny.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>TOWNHALL</wn> by <wo>BofaNuts</wo>
+			</div>
+			<a class="world_thumb" href="townhall.png">
+				<img class="world_thumb_img" src="townhall.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>OFARM1</wn> by <wom>@Oslo</wom>
+			</div>
+			<a class="world_thumb" href="ofarm1.png">
+				<img class="world_thumb_img" src="ofarm1.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>PIKACHU</wn> by <wom>@Melina</wom>
+			</div>
+			<a class="world_thumb" href="pikachu.png">
+				<img class="world_thumb_img" src="pikachu.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>MARIOHOTEL</wn> by <wom>@PixelMorph</wom>
+			</div>
+			<a class="world_thumb" href="mariohotel.png">
+				<img class="world_thumb_img" src="mariohotel.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>VOLCANO</wn> by <wom>@PixelMorph</wom>
+			</div>
+			<a class="world_thumb" href="volcano.png">
+				<img class="world_thumb_img" src="volcano.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>LOVE</wn> by <wom>@Bytez</wom>
+			</div>
+			<a class="world_thumb" href="love.png">
+				<img class="world_thumb_img" src="love.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>WATERCASTLE</wn> by <wor>DUUREX</wor>
+			</div>
+			<a class="world_thumb" href="watercastle.png">
+				<img class="world_thumb_img" src="watercastle.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>0MOM</wn> by <wor>IHaveSchool</wor>
+			</div>
+			<a class="world_thumb" href="0mom.png">
+				<img class="world_thumb_img" src="0mom.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>SUPERMARIOWORLD</wn> by <wod>@iProgramInCpp</wod>
+			</div>
+			<a class="world_thumb" href="supermarioworld.png">
+				<img class="world_thumb_img" src="supermarioworld.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>JAPAN</wn> (Creative Game Mode) by <wor>takaokachan</wor>
+			</div>
+			<a class="world_thumb" href="japan_creative.png">
+				<img class="world_thumb_img" src="japan_creative.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>SEX</wn> by <wor>Zenixa</wor>
+			</div>
+			<a class="world_thumb" href="sex.png">
+				<img class="world_thumb_img" src="sex.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>COLLECTION</wn> by <wo>PANGERAN</wo>
+			</div>
+			<a class="world_thumb" href="collection.png">
+				<img class="world_thumb_img" src="collection.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>FORCES</wn> by <wor>ahalkaabi</wor>
+			</div>
+			<a class="world_thumb" href="forces.png">
+				<img class="world_thumb_img" src="forces.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>START2017</wn> by <wo>Krpa</wo>
+			</div>
+			<a class="world_thumb" href="start2017.png">
+				<img class="world_thumb_img" src="start2017.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>POKEMONART</wn> by <wo>Rock</wo>
+			</div>
+			<a class="world_thumb" href="pokemonart.png">
+				<img class="world_thumb_img" src="pokemonart.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>LWINGS</wn> by <wo>BofaNuts</wo>
+			</div>
+			<a class="world_thumb" href="lwings.png">
+				<img class="world_thumb_img" src="lwings.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>DEAL</wn> by <wor>Wubst</wor>
+			</div>
+			<a class="world_thumb" href="deal.png">
+				<img class="world_thumb_img" src="deal.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>CAFER</wn> by <wo>Caferius</wo>
+			</div>
+			<a class="world_thumb" href="cafer.png">
+				<img class="world_thumb_img" src="cafer.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<abbr class="trophy_abbr" title="Has been a World of the Week in ReGrowtopia"> <img class="trophy" src="../images/trophy.png" alt="Has been a World of the Week in ReGrowtopia" /> </abbr>
+				<wn>TEMPLE</wn> by <wo>SPARKiE</wo>
+			</div>
+			<a class="world_thumb" href="temple.png">
+				<img class="world_thumb_img" src="temple.png"/>
+			</a>
+		</div>
+		<br>
+		<div class="transbox worldtransbox">
+			<div class="world_data">
+				<wn>COURTHOUSE</wn> by <wod>@iProgramInCpp</wod>
+			</div>
+			<a class="world_thumb" href="courthouse.png">
+				<img class="world_thumb_img" src="courthouse.png"/>
+			</a>
+		</div>
 		<br>
 		
-		<table class="SomethingTable">
-			<tbody>
-				<tr>
-					<td>
-						<div style="width:180px;height:506px;" align="center" id="screens">
-							<font size="+2">SCREENS</font>
-							<br>
-							<a href="images/screens/screen1.png" title="Make friends and make them build things for you!">
-								<img src="images/screens/thumb1.png" border="0">
-							</a>
-							<br>
-							<a href="images/screens/screen2.png" title="Locks protect your work from horrible people.">
-								<img src="images/screens/thumb2.png" border="0">
-							</a>
-							<br>
-							<a href="images/screens/screen_obstacle.png" title="Build obstacle courses and platforming challenges.">
-								<img src="images/screens/thumb_obstacle.png" border="0">
-							</a>
-							<br>
-							<a href="images/screens/screen_worlds.png" title="There are an infinite number of worlds - name your own!">
-								<img src="images/screens/thumb_worlds.png" border="0">
-							</a>
-							<br>
-						</div>
-					</td>
-					<td>
-						<div class="bigbox" style="width:660px;height:506px;" id="mainbox">
-							<table width="100%" height="100%" border="0">
-								<tbody>
-									<tr id="growmmfi_move_warning"></tr>
-									<tr>
-										<td align="center" valign="bottom" colspan=3>
-											<font size="10"><b>
-												<!-- Playing on Android? <a href="regrowtopia.hosts">Download the hosts file.</a> -->
-												<a href="howtoplay">Want to play this server?</a>
-											</b></font>
-										</td>
-									</tr>
-									<tr>
-										<td align="center" valign="bottom">
-											<font size="-1">
-												<a href="https://www.youtube.com/watch?v=ZEt50HkE0C0">Teaser 1</a>
-											</font>
-										</td>
-										<td></td>
-										<td align="center" valign="bottom">
-											<font size="-1">
-												<a href="https://www.youtube.com/watch?v=IkewwCnTxvk">Teaser 2</a>
-											</font>
-										</td>
-									</tr>
-									<tr>
-										<td align="center" valign="center" colspan="3">
-											<iframe width="560" height="315" src="http://www.youtube.com/embed/ZEt50HkE0C0" frameborder="0" allowfullscreen="">
-											</iframe>
-										</td>
-									</tr>
-									<!--
-									<tr>
-										<td align="right" valign="center">
-											<a href="https://itunes.apple.com/app/growtopia/id590495115?mt=8">
-												<img border="0" src="images/appstore.png">
-											</a>
-										</td>
-										<td align="center" valign="center">
-											<a href="https://play.google.com/store/apps/details?id=com.rtsoft.growtopia">
-												<img border="0" src="images/googleplay.png">
-											</a>
-										</td>
-										<td align="left" valign="center">
-											<a href="regrowtopia/index.html">
-												<img border="0" src="images/playregtsmall.png">
-											</a>
-										</td>
-									</tr>
-									-->
-								</tbody>
-							</table>
-						</div>
-					</td>
-					<td>
-						<div style="width:180px;height:506px;" align="center" id="screens2">
-							<font size="+2">SCREENS</font>
-							<br>
-							<a href="images/screens/screen_lava.png" title="Beware of lava.">
-								<img src="images/screens/thumb_lava.png" border="0">
-							</a>
-							<br>
-							<a href="images/screens/screen_recycle.png" title="Cash in collected items for gems - keep your world clean.">
-								<img src="images/screens/thumb_recycle.png" border="0">
-							</a>
-							<br>
-							<a href="images/screens/screen_sleep.png" title="Wacky emote actions like /sleep let you communicate or just be stupid.">
-								<img src="images/screens/thumb_sleep.png" border="0">
-							</a>
-							<br>
-							<a href="images/screens/screen_trees.png" title="<I>Everything</I> grows on trees!">
-								<img src="images/screens/thumb_trees.png" border="0">
-							</a>
-							<br>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<div style="position:absolute;right:10px;top:10px;align:right;padding:5px;background-color:#2FBFDF;border-style:solid;border-width:1px;border-color:white;z-index:6;" align="right">
-			The Game - 
-			<a href="https://discord.gg/ERE7jhNUCv">Discord</a> - 
-			<a href="aboutus">About Us</a> - 
-			<a href="worlds">Gallery of Worlds</a>
-		</div>
-		
-		
+		<h6>More renders will be coming soon, I hope!</h6>
+	</div>
 
-		<script>titleGo("the_title", false); for(var i=0; i<10; i++) cloudGoOnce("cloud"+i);</script>
-		<script>CheckHostName();</script>
-		
-		<div align="center">Website Copyright (C) 2022 iProgramInCpp</div>
-	</body>
-</html>
+</body>
