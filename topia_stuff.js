@@ -157,14 +157,14 @@ function simplerGo(mobile)
         setInterval('moveAllClouds();',50);
 }
 
-//we want to show that the site has moved to regrowtopia.com
+//we want to show that the site has moved to crystalps.github.io
 function CheckHostName()
 {
 	var warning = document.getElementById('growmmfi_move_warning');
 	
-	if (window.location.hostname !== 'regrowtopia.com')
+	if (window.location.hostname !== 'crystalps.github.io')
 	{
-		warning.innerHTML = '<td align=center colspan=3><b>This site has <span style=\"color: #FF4444;\">MOVED</span> to <a href=\"http://regrowtopia.com\">regrowtopia.com</a>!</b></td>';
+		warning.innerHTML = '<td align=center colspan=3><b>This site has <span style=\"color: #FF4444;\">MOVED</span> to <a href=\"http://crystalps.github.io\">crystalps.github.io</a>!</b></td>';
 	}
 	else
 	{
